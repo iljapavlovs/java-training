@@ -18,11 +18,12 @@ What is the difference between **abstract classes** and **interfaces**?
 * Must have the same method signature and return type
 * Cannot narrow the method accessibility
 * Cannot specify broader checked exceptions
-- Interface **variables** are implicitly public final static
-- Interface **methods** are implicitly public abstract
+- Interface **variables** are implicitly `public final static`
+- Interface **methods** are implicitly `public abstract`
 
 from http://stackoverflow.com/questions/3528420/why-do-we-need-interfaces-in-java#answer-17163473:
-*An interface is a contract (or a protocol, or a common understanding) of what the classes can do.
+```
+An interface is a contract (or a protocol, or a common understanding) of what the classes can do.
 When a class implements a certain interface,
 it promises to provide implementation to all the abstract methods declared in the interface.
 Interface defines a set of common behaviors.
@@ -39,4 +40,5 @@ However, multiple inheritance does have its place. Java does this by permitting 
 (but you can only "extends" from a single superclass).
 Since interfaces contain only abstract methods without actual implementation,
 no conflict can arise among the multiple interfaces. (Interface can hold constants but is not recommended.
-If a subclass implements two interfaces with conflicting constants, the compiler will flag out a compilation error.)*
+If a subclass implements two interfaces with conflicting constants, the compiler will flag out a compilation error.)
+```
