@@ -9,3 +9,19 @@
 8. Invoke all behaviours
 
 
+### Questions
+- Classes vs. Instances?
+
+### Takeaways
+- Instances of a class can be created by using the `new` keyword.  This process is called **instantiation**.
+- The ‘new’ keyword creates the object based on the specified class and returns a reference to the newly created object.
+- The reference is then received by an appropriate identifier.
+
+- A class is a template for a specific object.
+- A class defines the attributes and methods that all objects belonging to the class have.
+- The attributes and methods of a class are called ‘fields’ or ‘members’.
+- An instance refers to an object that is a member of a particular class. All objects that belong to a class are instances of that class.
+
+
+
+

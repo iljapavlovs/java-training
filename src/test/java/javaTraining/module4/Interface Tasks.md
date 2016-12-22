@@ -1,10 +1,13 @@
 ### Interface Task
 
-- (if not yet created) Create new class - a home for all kinds of animals. Name it for example as 'Zoo'.
--  Create a interface method in Washable interface class - wash(). Implement the interface by Animal class.
-- Create a method (name it prepareAnimal()) which will invoke wash() method of a corresponding Animal depending on which kind of an Animal was provided to this method as a parameter.(HINT - parameteres should be set to interface type)
-- Invoke prepareAnimal() from main method in a separate class by providing Lion and Elephant objects to the method.
+- (if not yet created) Create new class - washing place for every imaginable thing. Name it for example as 'WashingPlace'.
+- Create a interface method in Washable interface class - wash(). Implement the interface by Animal class.
+- Create a method (name it makeClean()) which will invoke wash() method of a corresponding Animal depending on which kind of an Animal was provided to this method as a parameter.(HINT - parameteres should be set to interface type)
+- Invoke makeClean() from main method in a separate class by providing Lion and Elephant objects to the method.
+- Create new class which has nothing in common with animals (say 'Plane' class), but it will be also possible to 'wash' it.
+Now in order to **reuse** the same 'makeClean()' method from 'WashingPlace' class all you have to do - is to implement 'Washable' interface in 'Plane' class
 
+### Questions
 What is the difference between **abstract classes** and **interfaces**?
 
 ### Takeaways:
@@ -42,3 +45,5 @@ Since interfaces contain only abstract methods without actual implementation,
 no conflict can arise among the multiple interfaces. (Interface can hold constants but is not recommended.
 If a subclass implements two interfaces with conflicting constants, the compiler will flag out a compilation error.)
 ```
+### Reading
+- http://www.artima.com/objectsandjava/webuscript/PolymorphismInterfaces1.html

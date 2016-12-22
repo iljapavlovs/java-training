@@ -20,6 +20,6 @@ public class OperatorActivity {
 
         //TODO - show example of LOGICAL operator
 
-        // TODO - show example of ()? ():() operator
+        //TODO - show example of ()? ():() operator
     }
 }
