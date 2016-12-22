@@ -1,17 +1,19 @@
+### Abstract Class Task
+
 Now think about Animal class - basically, it is not something concrete as a Dog or a Cat.
 It is an abstraction and there is no such thing as a concrete Animal in real world, hence Animal cannot be instantiated.
 
-*** What is the purpose of abstract classes?
+### What is the purpose of abstract classes?
 http://tutorials.jenkov.com/java/abstract-classes.html
 http://stackoverflow.com/questions/6007089/how-and-when-to-use-an-abstract-class#answer-33040904
 
 Make Animal as **abstract** class.
 - Now think which methods of Animal class can be abstract?
-* Hint - When an operation is performed in a different way, it is a good candidate for an abstract method (forcing subclasses to provide a custom implementation)
-* makeNoise() method is a good candidate to be abstract since different kinds of animals make noises differently.
+    * **Hint** - When an operation is performed in a different way, it is a good candidate for an abstract method (forcing subclasses to provide a custom implementation)
+    * makeNoise() method is a good candidate to be abstract since different kinds of animals make noises differently.
 
 
-*** Takeaways:
+### Takeaways:
 - An Abstract Class is a class that provides common behavior across a set of subclasses, but is not itself designed to have instances of its own
 - An abstract class is designed as a template for other classes to follow by dictating behavior that must be implemented by its subclasses
 - An abstract class can extend a class, an abstract class or implement an interface

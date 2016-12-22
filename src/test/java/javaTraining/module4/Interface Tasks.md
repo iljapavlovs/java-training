@@ -1,13 +1,13 @@
+### Interface Task
 
 - (if not yet created) Create new class - a home for all kinds of animals. Name it for example as 'Zoo'.
 -  Create a interface method in Washable interface class - wash(). Implement the interface by Animal class.
 - Create a method (name it prepareAnimal()) which will invoke wash() method of a corresponding Animal depending on which kind of an Animal was provided to this method as a parameter.(HINT - parameteres should be set to interface type)
 - Invoke prepareAnimal() from main method in a separate class by providing Lion and Elephant objects to the method.
 
-
 What is the difference between **abstract classes** and **interfaces**?
 
-*** Takeaways:
+### Takeaways:
 - An Interface defines a contract by specifying a set of method templates that an implementing class needs to follow
 - An interface provides only a form for a class but no implementation
 - An interface defines what a class can do but not how the class will do it
@@ -22,7 +22,7 @@ What is the difference between **abstract classes** and **interfaces**?
 - Interface **methods** are implicitly public abstract
 
 from http://stackoverflow.com/questions/3528420/why-do-we-need-interfaces-in-java#answer-17163473:
-An interface is a contract (or a protocol, or a common understanding) of what the classes can do.
+*An interface is a contract (or a protocol, or a common understanding) of what the classes can do.
 When a class implements a certain interface,
 it promises to provide implementation to all the abstract methods declared in the interface.
 Interface defines a set of common behaviors.
@@ -39,4 +39,4 @@ However, multiple inheritance does have its place. Java does this by permitting 
 (but you can only "extends" from a single superclass).
 Since interfaces contain only abstract methods without actual implementation,
 no conflict can arise among the multiple interfaces. (Interface can hold constants but is not recommended.
-If a subclass implements two interfaces with conflicting constants, the compiler will flag out a compilation error.)
+If a subclass implements two interfaces with conflicting constants, the compiler will flag out a compilation error.)*
