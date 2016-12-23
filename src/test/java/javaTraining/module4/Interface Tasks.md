@@ -18,9 +18,9 @@ What is the difference between **abstract classes** and **interfaces**?
 - A class implementing interfaces is required to override the inherited methods
 - Interfaces are implemented using the 'implements' keyword
 - Rules on implementing the interface methods
-* Must have the same method signature and return type
-* Cannot narrow the method accessibility
-* Cannot specify broader checked exceptions
+    * Must have the same method signature and return type
+    * Cannot narrow the method accessibility
+    * Cannot specify broader checked exceptions
 - Interface **variables** are implicitly `public final static`
 - Interface **methods** are implicitly `public abstract`
 
@@ -34,7 +34,9 @@ The classes implement the interface agree to these behaviors and provide their o
 This allows you to program at the interface,
 instead of the actual implementation. One of the main usage of interface is provide a communication contract between two objects.
 If you know a class implements an interface,
-then you know that class contains concrete implementations of the methods declared in that interface, and you are guaranteed to be able to invoke these methods safely. In other words, two objects can communicate based on the contract defined in the interface, instead of their specific implementation.
+then you know that class contains concrete implementations of the methods declared in that interface,
+and you are guaranteed to be able to invoke these methods safely.
+In other words, two objects can communicate based on the contract defined in the interface, instead of their specific implementation.
 
 Secondly, Java does not support multiple inheritance (whereas C++ does).
 Multiple inheritance permits you to derive a subclass from more than one direct superclass.
