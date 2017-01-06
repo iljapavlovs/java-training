@@ -6,20 +6,26 @@ First and foremost I recommend starting learning Java programming language with
 
 1. 34- page "Head First Java" book
 2. Java ["Getting Started"](https://docs.oracle.com/javase/tutorial/getStarted/index.html) tutorial from ORACLE
+3. "Thinking in Java" book
+4. 
 
 ### 1. What is Java?
 1. Main concepts
 2. What is JVM and what`s the purpose
 3. Compiled vs Interpreted languages
-    * illustrate example of running java code in JVM and explain
+    * **Tasks**: 
+        * illustrate example of running java code in JVM and explain
 4. JDK vs JRE
-    * Whats the purpose of each of them?
+    * **Tasks**: 
+        * Whats the purpose of each of them?
 5. Installation
 6. Hello World example
-    * Writing and Running Hello World from command line
-    * Writing and Running Hello World from IDE
+    * **Tasks**: 
+        * Writing and Running Hello World from command line
+        * Writing and Running Hello World from IDE
 7. Java Source File Structure
-    * List components of Java Source File
+    * **Tasks**: 
+        * List components of Java Source File
 
 ### 2. Language Basics
 #### 1. Variables
@@ -38,7 +44,7 @@ First and foremost I recommend starting learning Java programming language with
     - Implicit casting
     - Explicit Casting
 
-Questions - What does "Strongly Typed language" means?
+Questions - What does "Strongly (static) Typed language" and "Loosely Typed Language" means?
 
 ##### 2. Arrays
 
@@ -112,10 +118,21 @@ Questions - What does "Strongly Typed language" means?
 8. Checked/Unchecked Exceptions
 
 ### 9. Collections
-1. Interfaces
-2. Implementations
+1. Interfaces and Implementations
+2. Collection and Map Interface
+3. Set Interface and implementation
+4. List Interface and implementation
+5. Queue Intreface and implementation
+6. Ordering a collection
+    - Collections.sort() 
+    - implement Comparable interface
+    - implement Comparator interface
 
 ### 10. Generics
+1. Why use Generics?
+    - https://www.youtube.com/watch?v=4Rpr7aeSzxA
+    - https://www.youtube.com/watch?v=WPxcQtVWVKY
+    - https://www.youtube.com/watch?v=rOBtgaXaba0 
 
 ### 11. Basic I/O
 1. I/O Streams
@@ -128,6 +145,8 @@ Questions - What does "Strongly Typed language" means?
 8. Object Streams
 9. File I/O
 10. File Objects
+
+### Design Patterns
 
 ### Platform
 1. Command line arguments
@@ -147,3 +166,23 @@ Questions - What does "Strongly Typed language" means?
 ### Build tools
 1. Maven
 
+### Version Control Systems
+1. Git
+ - difference with SVN and other centralized CVS systems
+
+### Continuos Integration Process
+
+### Web App basics
+ - FE vs BE
+ 
+### Serialization/Deserialization
+ - JSON
+ - XML
+ 
+### Topics to read on
+ - Networking
+ - UML
+ - Coding Standards
+ - Clarity and Maintainability
+
+ 
