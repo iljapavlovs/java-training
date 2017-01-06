@@ -7,7 +7,7 @@ First and foremost I recommend starting learning Java programming language with
 1. 34- page "Head First Java" book
 2. Java ["Getting Started"](https://docs.oracle.com/javase/tutorial/getStarted/index.html) tutorial from ORACLE
 3. "Thinking in Java" book
-4. 
+
 
 ### 1. What is Java?
 1. Main concepts
