@@ -10,7 +10,7 @@ public class OperatorActivity {
 
         //TODO - assign the sum of x and y to z variable
 
-        z = x + y;
+        z = x+y;
 
         //TODO - write z=z+1 in a shorter way (2 ways possible)
 
