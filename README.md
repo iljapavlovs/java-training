@@ -165,16 +165,33 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
 
 ### Build tools
 1. Maven
+    - http://stackoverflow.com/questions/16205778/what-are-maven-goals-and-phases-and-what-is-their-difference 
 
 ### Version Control Systems
 1. Git
- - difference with SVN and other centralized CVS systems
+    - difference with SVN and other centralized CVS systems
+    - actions:
+        * initalizing a git repo
+        * adding to tracking
+        * cloning
+        * commiting
+        * pushing
+        * pulling
+        * merging
+    - Branching Strategies
+    - Handling conflicts 
+    - Pull Requests
 
 ### Continuos Integration Process
 
 ### Web App basics
  - FE vs BE
- 
+    * https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction 
+ - Web Server 
+    * https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server
+    * https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works 
+ - Static vs Dynamic sites
+    * https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview
 ### Serialization/Deserialization
  - JSON
  - XML
