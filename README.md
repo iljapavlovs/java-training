@@ -37,7 +37,7 @@ First and foremost I recommend start learning Java programming language with
       * The data type of the value being assigned must be compatible with the data type of the variable receiving the value
   2. Variable Scoping
    * Refers to portions or sections of a program where the variable has value and is said to be ‘visible’
-    1. Types of variables by scope:
+   * Types of variables by scope:
         - Class Variables
         - Instance Variables
         - Local Variables     
