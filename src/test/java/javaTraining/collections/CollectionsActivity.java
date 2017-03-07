@@ -10,5 +10,9 @@ public class CollectionsActivity {
         // TODO #2: add some objects to collection
 
         // END TODO #2
+
+        // TODO #3: remove added object from collection
+
+        // END TODO #3
     }
 }

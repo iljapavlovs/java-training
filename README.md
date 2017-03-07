@@ -2,14 +2,17 @@
 
 ## Training Plan
 
+
+
+# Module 1
+### 1. What is Java?
 First and foremost I recommend starting learning Java programming language with
 
-1. 34- page "Head First Java" book
+1. I-III chapters from "Head First Java" book
 2. Java ["Getting Started"](https://docs.oracle.com/javase/tutorial/getStarted/index.html) tutorial from ORACLE
-3. "Thinking in Java" book
+3. II-III chapters from ["Thinking in Java"](https://iamgodsom.files.wordpress.com/2014/08/java-the-complete-reference-7th-edition.pdf) book 
+---
 
-
-### 1. What is Java?
 1. Main concepts
 2. What is JVM and what`s the purpose
 3. Compiled vs Interpreted languages
@@ -32,7 +35,7 @@ First and foremost I recommend starting learning Java programming language with
   1. Declaration and Initialization (Variable Assignment);
       * The data type of the value being assigned must be compatible with the data type of the variable receiving the value
   2. Variable Scoping
-    * Refers to portions or sections of a program where the variable has value and is said to be ‘visible’
+   * Refers to portions or sections of a program where the variable has value and is said to be ‘visible’
     1. Types of variables by scope:
         - Class Variables
         - Instance Variables
@@ -63,6 +66,7 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
 - continue
 - return
 
+#Module 2
 ### 3. Object-Oriented Programming Concepts
 - What Is an Object?
 - What Is a Class?
@@ -89,6 +93,7 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
     9. Enum Types
     10. Annotations
 
+#Module 3/4
 ### 5. Inheritance
 1. Overriding and Hiding Methods and Fields
 2. Using the Keyword `super`
@@ -100,10 +105,13 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
 8. Composition (vs Inheritance)
     * http://www.javaworld.com/article/2076814/core-java/inheritance-versus-composition--which-one-should-you-choose-.html
 
+#Module 3/4
 ### 6. Interfaces
 1. Defining an Interface
 2. Implementing an Interface
 3. Using an Interface as a Type
+
+---
 
 ### 7. Strings
 
@@ -147,6 +155,9 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
 10. File Objects
 
 ### Design Patterns
+* Creational Patterns
+* Structural Patterns
+* Behavioral Patterns
 
 ### Platform
 1. Command line arguments
@@ -183,17 +194,20 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
     - Pull Requests
 
 ### Continuos Integration Process
+ - http://slides.com/iljapavlovs/deck-4/fullscreen#/ 
 
 ### Web App basics
  - FE vs BE
     * https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction 
  - Web Server 
     * https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server
-    * https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works 
+    * https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+    * https://www.youtube.com/watch?v=syuIHCMHQgc
  - Static vs Dynamic sites
     * https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview
 ### Serialization/Deserialization
  - JSON
+    - https://www.youtube.com/watch?v=syuIHCMHQgc
  - XML
  
 ### Topics to read on
@@ -202,4 +216,7 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
  - Coding Standards
  - Clarity and Maintainability
 
- 
+### Misc
+   * Bash scripting - https://cmdchallenge.com/ 
+   * Books to read:
+        * http://automation-remarks.com/knigi-aqa/index.html
