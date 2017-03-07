@@ -6,7 +6,7 @@
 
 # Module 1
 ### 1. What is Java?
-First and foremost I recommend starting learning Java programming language with
+First and foremost I recommend start learning Java programming language with
 
 1. I-III chapters from "Head First Java" book
 2. Java ["Getting Started"](https://docs.oracle.com/javase/tutorial/getStarted/index.html) tutorial from ORACLE
