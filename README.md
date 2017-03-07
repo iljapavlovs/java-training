@@ -40,11 +40,11 @@ First and foremost I recommend start learning Java programming language with
     1. Types of variables by scope:
         - Class Variables
         - Instance Variables
-        - Local Variables
-3. Data Types
+        - Local Variables     
+  3. Data Types
     - Primitive Data Types
     - Reference Data Types
-4. Type Conversion
+  4. Type Conversion
     - Implicit casting
     - Explicit Casting
 
