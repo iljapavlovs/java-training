@@ -216,6 +216,15 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
  - UML
  - Coding Standards
  - Clarity and Maintainability
+ 
+### Selenium Webdriver
+1. [Official site](http://www.seleniumhq.org/docs/03_webdriver.jsp#introducing-webdriver)
+2. SauceLabs ["Getting Started with Selenium for Automated Website Testing"](https://wiki.saucelabs.com/display/DOCS/Getting+Started+with+Selenium+for+Automated+Website+Testing)
+3. Page Object Pattern
+    * https://github.com/SeleniumHQ/selenium/wiki/PageObjects
+    * http://internetka.in.ua/selenium-page-object/
+    * https://confengine.com/selenium-conf-2014/proposal/310/page-objects-done-right
+   
 
 ### Misc
    * Bash scripting - https://cmdchallenge.com/ 
