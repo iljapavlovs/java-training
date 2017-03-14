@@ -1,11 +1,9 @@
-# java-training
+Java Training Plan
+============================================
 
-## Training Plan
-
-
-
-# Module 1
-### 1. What is Java?
+Module 1
+--------------------------------------------
+## 1. What is Java?
 First and foremost I recommend start learning Java programming language with
 
 1. I-III chapters from "Head First Java" book
@@ -31,8 +29,8 @@ First and foremost I recommend start learning Java programming language with
     * **Tasks**: 
         * List components of Java Source File
 
-### 2. Language Basics
-#### 1. Variables
+## 2. Language Basics
+### 1. Variables
   1. Declaration and Initialization (Variable Assignment);
       * The data type of the value being assigned must be compatible with the data type of the variable receiving the value
   2. Variable Scoping
@@ -50,32 +48,33 @@ First and foremost I recommend start learning Java programming language with
 
 Questions - What does "Strongly (static) Typed language" and "Loosely Typed Language" means?
 
-##### 2. Arrays
+#### 2. Arrays
 
-##### 3. Operators
+#### 3. Operators
 
-##### 4. Expressions, Statements, and Blocks
+#### 4. Expressions, Statements, and Blocks
 
-##### 5. Control Flow Statements
+#### 5. Control Flow Statements
 - The if-then and if-then-else Statements
 - The switch Statement
 - The while and do-while Statements
 - The for Statement
 
-#### 6. Branching Statements
+### 6. Branching Statements
 - break
 - continue
 - return
 
-#Module 2
-### 3. Object-Oriented Programming Concepts
+Module 2
+--------------------------------------------
+## 3. Object-Oriented Programming Concepts
 - What Is an Object?
 - What Is a Class?
 - What Is Inheritance?
 - What Is an Interface?
 - What Is a Package?
 
-### 4. Classes and Objects
+## 4. Classes and Objects
 1. Classes
     1. Declaring Classes
     2. Declaring Member Variables
@@ -94,8 +93,9 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
     9. Enum Types
     10. Annotations
 
-#Module 3/4
-### 5. Inheritance
+Module 3/4
+--------------------------------------------
+## 5. Inheritance
 1. Overriding and Hiding Methods and Fields
 2. Using the Keyword `super`
 3. Object as a Superclass (Dynamic binding, Polymorphism)
@@ -106,17 +106,18 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
 8. Composition (vs Inheritance)
     * http://www.javaworld.com/article/2076814/core-java/inheritance-versus-composition--which-one-should-you-choose-.html
 
-#Module 3/4
-### 6. Interfaces
+Module 3/4
+--------------------------------------------
+## 6. Interfaces
 1. Defining an Interface
 2. Implementing an Interface
 3. Using an Interface as a Type
 
 ---
 
-### 7. Strings
+## 7. Strings
 
-### 8. Exceptions
+## 8. Exceptions
 1. What Is an Exception?
 2. Catching and Handling Exceptions
 3. The try...catch...finally Blocks
@@ -126,7 +127,7 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
 7. Creating Exception Classes
 8. Checked/Unchecked Exceptions
 
-### 9. Collections
+## 9. Collections
 1. Interfaces and Implementations
 2. Collection and Map Interface
 3. Set Interface and implementation
@@ -137,13 +138,13 @@ Questions - What does "Strongly (static) Typed language" and "Loosely Typed Lang
     - implement Comparable interface
     - implement Comparator interface
 
-### 10. Generics
+## 10. Generics
 1. Why use Generics?
     - https://www.youtube.com/watch?v=4Rpr7aeSzxA
     - https://www.youtube.com/watch?v=WPxcQtVWVKY
     - https://www.youtube.com/watch?v=rOBtgaXaba0 
 
-### 11. Basic I/O
+## 11. Basic I/O
 1. I/O Streams
 2. Byte Streams
 3. Character Streams
