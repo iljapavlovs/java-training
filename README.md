@@ -48,13 +48,13 @@ First and foremost I recommend start learning Java programming language with
 
 Questions - What does "Strongly (static) Typed language" and "Loosely Typed Language" means?
 
-#### 2. Arrays
+### 2. Arrays
 
-#### 3. Operators
+### 3. Operators
 
-#### 4. Expressions, Statements, and Blocks
+### 4. Expressions, Statements, and Blocks
 
-#### 5. Control Flow Statements
+### 5. Control Flow Statements
 - The if-then and if-then-else Statements
 - The switch Statement
 - The while and do-while Statements
