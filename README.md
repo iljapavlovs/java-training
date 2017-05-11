@@ -233,6 +233,7 @@ Module 3/4
 
 ### Misc
    * Bash scripting :   
+        * http://ryanstutorials.net/bash-scripting-tutorial/
         * https://habrahabr.ru/company/ruvds/blog/325522/
         * https://cmdchallenge.com/ 
    * Books to read:
