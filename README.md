@@ -137,12 +137,16 @@ Module 3/4
     - Collections.sort() 
     - implement Comparable interface
     - implement Comparator interface
+7. Examples:
+    - [link](https://github.com/nicholasren/java-training/tree/master/java-basic/src/main/java/com/thoughtworks/collections)
 
 ## 10. Generics
 1. Why use Generics?
     - https://www.youtube.com/watch?v=4Rpr7aeSzxA
     - https://www.youtube.com/watch?v=WPxcQtVWVKY
-    - https://www.youtube.com/watch?v=rOBtgaXaba0 
+    - https://www.youtube.com/watch?v=rOBtgaXaba0
+2. Examples:
+       - [link](https://github.com/nicholasren/java-training/tree/master/java-basic/src/main/java/com/thoughtworks/generic)
 
 ## 11. Basic I/O
 1. I/O Streams
@@ -228,6 +232,8 @@ Module 3/4
    
 
 ### Misc
-   * Bash scripting - https://cmdchallenge.com/ 
+   * Bash scripting :   
+        * https://habrahabr.ru/company/ruvds/blog/325522/
+        * https://cmdchallenge.com/ 
    * Books to read:
         * http://automation-remarks.com/knigi-aqa/index.html
