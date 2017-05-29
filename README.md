@@ -46,7 +46,8 @@ First and foremost I recommend start learning Java programming language with
     - Implicit casting
     - Explicit Casting
 
-Questions - What does "Strongly (static) Typed language" and "Loosely Typed Language" means?
+* Questions - What does "Strongly (static) Typed language" and "Loosely Typed Language" means?
+    * [link](https://ru.hexlet.io/courses/introduction_to_programming/lessons/types/theory_unit?utm_content=buffer98f60&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer)
 
 ### 2. Arrays
 
