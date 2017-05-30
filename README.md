@@ -187,6 +187,9 @@ Module 3/4
 
 ### Version Control Systems
 1. Git
+    - [link](https://www.atlassian.com/git/tutorials/what-is-version-control)
+    - [link](http://www.vogella.com/tutorials/Git/article.html)
+    - [interactive](https://try.github.io/levels/1/challenges/1)
     - difference with SVN and other centralized CVS systems
     - actions:
         * initalizing a git repo
