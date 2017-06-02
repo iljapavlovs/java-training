@@ -60,6 +60,7 @@ public class Main {
             }
             if (i==3){
                 animal.making_a_noise();
+
             }
             if (i==4){
                 animal.information();

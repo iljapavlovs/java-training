@@ -30,6 +30,7 @@ public class Animal {
     void eating(){
         System.out.println(name+" Nyam nyam nyam");
     }
+
     //Animal sleeping
     void sleeping(){
         System.out.println(name+" ZzzzZZzzzzzZzZzZZzzzZzZ");
