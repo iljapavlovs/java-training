@@ -19,6 +19,14 @@ public class Animal {
     int size;
     String color;
 
+    Animal(){
+        name = "Tobi";
+        age = 5;
+        size = 3;
+        color = "brown";
+    }
+
+
     void eating(){
         System.out.println(name+" Nyam nyam nyam");
     }

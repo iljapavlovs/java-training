@@ -23,15 +23,19 @@ public class Main {
         Animal animal;
         animal = new Animal();
 
-        System.out.println("Basic information about your pet!");
-        System.out.println("Please enter your pet name: ");
-        animal.name = reader.next();
-        System.out.println("Please enter your pet age: ");
-        animal.age = reader.nextInt();
-        System.out.println("Please enter your pet size: ");
-        animal.size = reader.nextInt();
-        System.out.println("Please enter your pet color: ");
-        animal.color = reader.next();
+        System.out.println("Do you want create a new pet? yes - 1, no - any number");
+        int l = reader.nextInt();
+        if (l==1) {
+            System.out.println("Basic information about your pet!");
+            System.out.println("Please enter your pet name: ");
+            animal.name = reader.next();
+            System.out.println("Please enter your pet age: ");
+            animal.age = reader.nextInt();
+            System.out.println("Please enter your pet size: ");
+            animal.size = reader.nextInt();
+            System.out.println("Please enter your pet color: ");
+            animal.color = reader.next();
+        }
 
 
         System.out.println();
