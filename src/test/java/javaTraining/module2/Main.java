@@ -26,6 +26,7 @@ public class Main {
         System.out.println("Do you want create a new pet? yes - 1, no - any number");
         int l = reader.nextInt();
         if (l==1) {
+            //Information about animal
             System.out.println("Basic information about your pet!");
             System.out.println("Please enter your pet name: ");
             animal.name = reader.next();
@@ -39,7 +40,7 @@ public class Main {
 
 
         System.out.println();
-
+        //Home Menu
         System.out.println("        Menu        ");
         System.out.println("Your pet can eat - 1");
         System.out.println("Your pet can sleep - 2");
@@ -65,6 +66,7 @@ public class Main {
             }
             if (i==5){
                 int z;
+                //Animal change parameters menu
                 System.out.println("Change pet name - 1");
                 System.out.println("Change pet age - 2");
                 System.out.println("Change pet size - 3");
@@ -73,28 +75,30 @@ public class Main {
                 z = reader.nextInt();
                 do {
                     if (z == 1) {
-                        System.out.println("Please enter new pet name:");
+                        System.out.println("Please enter new pet name:");   //name change
                         animal.name = reader.next();
                         System.out.println("Changes is saved!");
                     }
                     if (z == 2) {
-                        System.out.println("Please enter new pet age:");
+                        System.out.println("Please enter new pet age:");    //age change
                         animal.age = reader.nextInt();
                         System.out.println("Changes is saved!");
                     }
                     if (z == 3) {
-                        System.out.println("Please enter new pet size:");
+                        System.out.println("Please enter new pet size:");   //size change
                         animal.size = reader.nextInt();
                         System.out.println("Changes is saved!");
                     }
                     if (z == 4) {
-                        System.out.println("Please enter new pet color:");
+                        System.out.println("Please enter new pet color:");  //color change
                         animal.color = reader.next();
                         System.out.println("Changes is saved!");
                     }
+                    //Error message
                     if (z <= 0 && z > 4) {
                         System.out.println("It is not valid value");
                     }
+                    //repeat pet changes menu
                     System.out.println("Change pet name - 1");
                     System.out.println("Change pet age - 2");
                     System.out.println("Change pet size - 3");
@@ -103,11 +107,11 @@ public class Main {
                     z = reader.nextInt();
                 }while (z!=0);
             }
-
+            //Error message
             if (i < 0 && i > 5) {
                 System.out.println("It is not valid value");
             }
-
+            //repeat home menu
             System.out.println();
             System.out.println("        Menu        ");
             System.out.println("Your pet can eat - 1");
@@ -118,7 +122,7 @@ public class Main {
             System.out.println("        Out - 0     ");
             i = reader.nextInt();
         }while (i!=0);
-
+        //end
         System.out.println("Thank you!");
     }
 

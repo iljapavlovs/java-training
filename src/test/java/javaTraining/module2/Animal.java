@@ -18,7 +18,7 @@ public class Animal {
     int age;
     int size;
     String color;
-
+    //Animal constructor
     Animal(){
         name = "Tobi";
         age = 5;
@@ -26,19 +26,19 @@ public class Animal {
         color = "brown";
     }
 
-
+    //Animal eating
     void eating(){
         System.out.println(name+" Nyam nyam nyam");
     }
-
+    //Animal sleeping
     void sleeping(){
         System.out.println(name+" ZzzzZZzzzzzZzZzZZzzzZzZ");
     }
-
+    //Animal make a noise
     void making_a_noise(){
         System.out.println(name+" BAM BAM CRASH SPLASH");
     }
-
+    //Information about animal
     void information(){
         System.out.println("Name: "+name);
         System.out.println("Age: "+age);
