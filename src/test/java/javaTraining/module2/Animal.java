@@ -19,11 +19,12 @@ public class Animal {
     int size;
     String color;
     //Animal constructor
-    Animal(){
-        name = "Tobi";
-        age = 5;
-        size = 3;
-        color = "brown";
+
+    Animal(String name, int age, int size, String color){
+        this.name = name;
+        this.age = age;
+        this.size = size;
+        this.color = color;
     }
 
     //Animal eating
@@ -45,7 +46,6 @@ public class Animal {
         System.out.println("Age: "+age);
         System.out.println("Size: "+size);
         System.out.println("Color: "+color);
-
     }
 
 }
