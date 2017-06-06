@@ -13,6 +13,7 @@ package javaTraining.module2;
  8. Invoke all behaviours
 
  */
+
 public class Animal {
     String name;
     int age;
