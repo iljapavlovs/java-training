@@ -14,19 +14,57 @@ package javaTraining.module2;
 
  */
 
-public class Animal {
-    String name;
-    int age;
-    int size;
-    String color;
-    //Animal constructor
+class Animal {
+    private String name;
+    private int age;
+    private int size;
+    private String color;
 
+    //Animal constructor
     Animal(String name, int age, int size, String color){
         this.name = name;
         this.age = age;
         this.size = size;
         this.color = color;
     }
+
+    Animal(){
+        name = "Tobi";
+        age = 5;
+        size = 3;
+        color ="brown";
+    }
+
+
+
+
+    void setName(String name){
+        this.name = name;
+    }
+    String getName(){
+        return name;
+    }
+
+    void setAge(int age){
+        this.age = age;
+    }
+    int getAge(){
+        return age;
+    }
+
+    void setSize(int size){
+        this.size = size;
+    }
+    int getSize(){
+        return size;
+    }
+
+    void setColor(String color){this.color=color;}
+    String getColor(){return color;}
+
+
+
+
 
     //Animal eating
     void eating(){
@@ -37,10 +75,12 @@ public class Animal {
     void sleeping(){
         System.out.println(name+" ZzzzZZzzzzzZzZzZZzzzZzZ");
     }
+
     //Animal make a noise
     void making_a_noise(){
         System.out.println(name+" BAM BAM CRASH SPLASH");
     }
+
     //Information about animal
     void information(){
         System.out.println("Name: "+name);

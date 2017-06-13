@@ -24,7 +24,7 @@ public class Main {
         Animal animal;
         Animal animal2;
         animal = new Animal("Nami", 3, 2, "White");
-        animal2 = new Animal("Tobi", 5, 3, "Brown");
+        animal2 = new Animal();
 
         System.out.println("first pet - 1, second pet - 2;");
         int l = reader.nextInt();
@@ -77,22 +77,22 @@ public class Main {
                         z = reader.nextInt();
                         if (z == 1) {
                             System.out.println("Please enter new pet name:");   //name change
-                            animal.name = reader.next();
+                            animal.setName(reader.next());
                             System.out.println("Changes is saved!");
                         }
                         if (z == 2) {
                             System.out.println("Please enter new pet age:");    //age change
-                            animal.age = reader.nextInt();
+                            animal.setAge(reader.nextInt());
                             System.out.println("Changes is saved!");
                         }
                         if (z == 3) {
                             System.out.println("Please enter new pet size:");   //size change
-                            animal.size = reader.nextInt();
+                            animal.setSize(reader.nextInt());
                             System.out.println("Changes is saved!");
                         }
                         if (z == 4) {
                             System.out.println("Please enter new pet color:");  //color change
-                            animal.color = reader.next();
+                            animal.setColor(reader.next());
                             System.out.println("Changes is saved!");
                         }
                         //Error message
@@ -138,22 +138,22 @@ public class Main {
                         z = reader.nextInt();
                         if (z == 1) {
                             System.out.println("Please enter new pet name:");   //name change
-                            animal2.name = reader.next();
+                            animal2.setName(reader.next());
                             System.out.println("Changes is saved!");
                         }
                         if (z == 2) {
                             System.out.println("Please enter new pet age:");    //age change
-                            animal2.age = reader.nextInt();
+                            animal2.setAge(reader.nextInt());
                             System.out.println("Changes is saved!");
                         }
                         if (z == 3) {
                             System.out.println("Please enter new pet size:");   //size change
-                            animal2.size = reader.nextInt();
+                            animal2.setSize(reader.nextInt());
                             System.out.println("Changes is saved!");
                         }
                         if (z == 4) {
                             System.out.println("Please enter new pet color:");  //color change
-                            animal2.color = reader.next();
+                            animal2.setColor(reader.next());
                             System.out.println("Changes is saved!");
                         }
                         //Error message

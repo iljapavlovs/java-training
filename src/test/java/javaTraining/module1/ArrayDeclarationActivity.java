@@ -32,7 +32,7 @@ public class ArrayDeclarationActivity {
 
 
 		// TODO #6: access 1st element from String array
-
+		System.out.println(mas2[1]);
 		// END TODO #6
 	}
 }
