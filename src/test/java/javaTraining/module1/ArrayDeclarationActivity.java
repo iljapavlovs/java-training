@@ -17,7 +17,7 @@ public class ArrayDeclarationActivity {
 
 		// END TODO #2
 		// TODO #3: assign any String for 1st array element
-		mas2[1] = "e";
+		mas2[1] = "eeeee";
 		System.out.println(mas2[1]);
 		// END TODO #3
 		// TODO #4: declare, initiliaze and assign 5 elements to an array in another way in one line (with curly braces)

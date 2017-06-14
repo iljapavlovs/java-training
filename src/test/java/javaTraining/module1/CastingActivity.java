@@ -10,10 +10,10 @@ public class CastingActivity {
 		int
 		double
 		*/
+		byte buy = 23;
 		short sh = 100;
+		int in = 5;
         double dub = 2.0;
-        int in = 5;
-        byte buy = 23;
         // END TODO #1
 
 
@@ -27,7 +27,6 @@ public class CastingActivity {
         // TODO #3: Write a code which will show example of Explicit Casting for previously declared variables
         dub = dub + 5;
         System.out.println(dub);
-
         // END TODO #3
     }
 }

@@ -17,31 +17,31 @@ public class DecisionActivity {
 		*/
 		if(theNumber == 0){
 			System.out.println("The value of theNumber is "+ theNumber);
-		}
+		}else
 		if(theNumber == 1){
 			System.out.println("The value of theNumber is "+ theNumber);
-		}
+		}else
 		if(theNumber == 2){
 			System.out.println("The value of theNumber is "+ theNumber);
-		}
+		}else
 		if(theNumber == 3){
 			System.out.println("The value of theNumber is "+ theNumber);
-		}
+		}else
 		if(theNumber == 4){
 			System.out.println("The value of theNumber is "+ theNumber);
-		}
+		}else
 		if(theNumber == 5){
 			System.out.println("The value of theNumber is "+ theNumber);
-		}
+		}else
 		if(theNumber == 6){
 			System.out.println("The value of theNumber is "+ theNumber);
-		}
+		}else
 		if(theNumber == 7){
 			System.out.println("The value of theNumber is "+ theNumber);
-		}
+		}else
 		if(theNumber == 8){
 			System.out.println("The value of theNumber is "+ theNumber);
-		}
+		}else
 		if(theNumber == 9){
 			System.out.println("The value of theNumber is "+ theNumber);
 		}
@@ -66,7 +66,8 @@ public class DecisionActivity {
 			case 7: System.out.println("The value of theNumber is "+ theNumber);
 			case 8: System.out.println("The value of theNumber is "+ theNumber);
 			case 9: System.out.println("The value of theNumber is "+ theNumber);
-
+			default:
+				System.out.println("The number is not a valid choice");
 				break;
 
 		}

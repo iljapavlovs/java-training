@@ -41,26 +41,26 @@ class Animal {
     public void setName(String name){
         this.name = name;
     }
-    String getName(){
+    public String getName(){
         return name;
     }
 
     public void setAge(int age){
         this.age = age;
     }
-    int getAge(){
+    public int getAge(){
         return age;
     }
 
     public void setSize(int size){
         this.size = size;
     }
-    int getSize(){
+    public int getSize(){
         return size;
     }
 
     public void setColor(String color){this.color=color;}
-    String getColor(){return color;}
+    public String getColor(){return color;}
 
 
 

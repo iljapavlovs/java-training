@@ -40,7 +40,7 @@ public class OperatorActivity {
         }
 
         //TODO - show example of ()? ():() operator
-
+        System.out.println((z>x) ? z:x);
 
     }
 }
