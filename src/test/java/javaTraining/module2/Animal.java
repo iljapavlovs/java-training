@@ -38,28 +38,28 @@ class Animal {
 
 
 
-    void setName(String name){
+    public void setName(String name){
         this.name = name;
     }
     String getName(){
         return name;
     }
 
-    void setAge(int age){
+    public void setAge(int age){
         this.age = age;
     }
     int getAge(){
         return age;
     }
 
-    void setSize(int size){
+    public void setSize(int size){
         this.size = size;
     }
     int getSize(){
         return size;
     }
 
-    void setColor(String color){this.color=color;}
+    public void setColor(String color){this.color=color;}
     String getColor(){return color;}
 
 
@@ -67,26 +67,33 @@ class Animal {
 
 
     //Animal eating
-    void eating(){
-        System.out.println(name+" Nyam nyam nyam");
+    public void eating(){
+        System.out.println(name + " Nyam nyam nyam");
     }
 
     //Animal sleeping
-    void sleeping(){
-        System.out.println(name+" ZzzzZZzzzzzZzZzZZzzzZzZ");
+    public void sleeping(){
+        System.out.println(name + " ZzzzZZzzzzzZzZzZZzzzZzZ");
     }
 
     //Animal make a noise
-    void making_a_noise(){
-        System.out.println(name+" BAM BAM CRASH SPLASH");
+    public void makingANoise(){
+        System.out.println(name + " BAM BAM CRASH SPLASH");
+    }
+
+    //Animal make a noise 2
+    public void makingANoise(int size){
+        System.out.println(name + " BUM BAM BUMMMMM!!!!!");
+        System.out.println();
     }
 
     //Information about animal
-    void information(){
-        System.out.println("Name: "+name);
-        System.out.println("Age: "+age);
-        System.out.println("Size: "+size);
-        System.out.println("Color: "+color);
+    public void information(){
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Size: " + size);
+        System.out.println("Color: " + color);
+        System.out.println();
     }
 
 }
