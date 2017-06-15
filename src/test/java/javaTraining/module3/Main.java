@@ -1,5 +1,6 @@
 package javaTraining.module3;
 
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,6 +12,7 @@ public class Main {
         lion.eating();
         lion.sleeping();
         lion.makingANoise();
+        lion.animalRun();
         System.out.println();
 
         System.out.println("Elephant:");
@@ -18,6 +20,7 @@ public class Main {
         elephant.sleeping();
         elephant.eating();
         elephant.makingANoise();
+        elephant.animalRun();
         System.out.println();
 
     }

@@ -1,18 +1,12 @@
 package javaTraining.module3;
 
-/*
-### Создайте более специализированные классы Animal - Lion and Elephant (** Наследование, отношения IS-A, Order of Calling Constructors, ключевое слово Super) **)
-1. Переопределить поведение и поля из класса Super (** Переопределение метода **)
-     1. Можно ли переопределить переменные экземпляра?
-2. Предоставляйте интерфейсы для написания полей чтения и чтения.
-3. Инициализируйте объекты Lion и Elephant и установите все переменные экземпляра.
-4. Вызвать все виды поведения
-*/
+
 
 class Animal {
-    protected int age;
-    protected int size;
-    protected String color;
+    private int age;
+    private int size;
+    private String color;
+    public static final int CONST = 10;
 
     //Animal constructor
     Animal(int age, int size, String color){
@@ -60,6 +54,11 @@ class Animal {
         System.out.println("BAM BAM CRASH SPLASH");
     }
 
+    //Final method Animal Run
+    public final void animalRun(){
+        System.out.println("RUN RUN run run RUN");
+    }
+
 
     //Information about animal
     public void information(){
@@ -72,12 +71,22 @@ class Animal {
 
 
 
-class Lion extends Animal{
-    String name;
+final class Lion extends Animal{
+    final String name;
+    int age;
+    int size;
+    String color;
+
+
     Lion(String name, int age, int size, String color) {
         super(age, size, color);
         this.name = name;
+        this.age = age;
+        this.size = size;
+        this.color = color;
     }
+
+
     //Method Overriding
     public void information(){
         System.out.println("Name: " + name);
@@ -88,12 +97,26 @@ class Lion extends Animal{
 
 }
 
+
+
+
+
 class Elephant extends Animal{
     String name;
+    int age;
+    int size;
+    String color;
+
+
     Elephant(String name, int age, int size, String color) {
         super(age, size, color);
         this.name = name;
+        this.age = age;
+        this.size = size;
+        this.color = color;
     }
+
+
     //Method Overriding
     public void information(){
         System.out.println("Name: " + name);
