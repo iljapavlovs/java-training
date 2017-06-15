@@ -4,8 +4,9 @@ package javaTraining.module3;
 public class Main {
 
     public static void main(String[] args) {
-        Lion lion = new Lion("Lion",3, 2, "White");
-        Elephant elephant= new Elephant("Elephant",10, 5, "Gray");
+        Lion lion = new Lion();
+        Elephant elephant= new Elephant();
+        Zoo zoo = new Zoo();
 
         System.out.println("Lion:");
         lion.information();
@@ -15,6 +16,8 @@ public class Main {
         lion.animalRun();
         System.out.println();
 
+
+
         System.out.println("Elephant:");
         elephant.information();
         elephant.sleeping();
@@ -22,6 +25,7 @@ public class Main {
         elephant.makingANoise();
         elephant.animalRun();
         System.out.println();
+
 
     }
 }

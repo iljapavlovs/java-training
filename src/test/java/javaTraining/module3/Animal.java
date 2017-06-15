@@ -3,19 +3,29 @@ package javaTraining.module3;
 
 
 class Animal {
+    private String name;
     private int age;
     private int size;
     private String color;
     public static final int CONST = 10;
 
     //Animal constructor
-    Animal(int age, int size, String color){
+    Animal(String name,  int age, int size, String color){
         this.age = age;
         this.size = size;
         this.color = color;
     }
 
+    Animal(){
 
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
 
     public void setAge(int age){
         this.age = age;
@@ -66,26 +76,50 @@ class Animal {
         System.out.println("Size: " + size);
         System.out.println("Color: " + color);
     }
+
+    public void wash(){
+        System.out.println("Wash wash wash");
+    }
+}
+
+
+class Zoo{
+
+    private Animal animal;
+    private Lion lion;
+    private Elephant elephant;
+    public Zoo(){
+        this.animal = new Animal();
+        this.lion = new Lion();
+        this.elephant = new Elephant();
+    }
+
+    public void prepareAnimal(){
+
+    }
 }
 
 
 
-
 final class Lion extends Animal{
-    final String name;
-    int age;
-    int size;
-    String color;
+    String name = "Lion";
+    int age = 10;
+    int size = 3;
+    String color = "Brown";
 
 
     Lion(String name, int age, int size, String color) {
-        super(age, size, color);
+        super(name, age, size, color);
         this.name = name;
         this.age = age;
         this.size = size;
         this.color = color;
     }
 
+
+    Lion(){
+
+    }
 
     //Method Overriding
     public void information(){
@@ -95,25 +129,33 @@ final class Lion extends Animal{
         System.out.println("Color: " + color);
     }
 
+    public void wash(){
+        System.out.println(name +" Wash wash wash");
+    }
+
 }
+
 
 
 
 
 
 class Elephant extends Animal{
-    String name;
-    int age;
-    int size;
-    String color;
-
+    String name = "Elephant";
+    int age = 50;
+    int size = 10;
+    String color = "Gray";
 
     Elephant(String name, int age, int size, String color) {
-        super(age, size, color);
+        super(name, age, size, color);
         this.name = name;
         this.age = age;
         this.size = size;
         this.color = color;
+    }
+
+    Elephant(){
+
     }
 
 
@@ -123,6 +165,10 @@ class Elephant extends Animal{
         System.out.println("Age: " + age);
         System.out.println("Size: " + size);
         System.out.println("Color: " + color);
+    }
+
+    public void wash(){
+        System.out.println(name +" Wash wash wash");
     }
 
 }
