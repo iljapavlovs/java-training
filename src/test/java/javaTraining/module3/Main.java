@@ -13,16 +13,12 @@ public class Main {
         lion.makingANoise();
         System.out.println();
 
-
         System.out.println("Elephant:");
         elephant.information();
         elephant.sleeping();
         elephant.eating();
         elephant.makingANoise();
         System.out.println();
-
-
-
 
     }
 }

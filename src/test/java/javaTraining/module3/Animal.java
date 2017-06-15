@@ -88,9 +88,6 @@ class Lion extends Animal{
 
 }
 
-
-
-
 class Elephant extends Animal{
     String name;
     Elephant(String name, int age, int size, String color) {
