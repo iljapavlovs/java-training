@@ -8,4 +8,5 @@ class Animal implements WashingPlace.Washable{
     }
 
 
+
 }
