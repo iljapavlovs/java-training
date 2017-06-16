@@ -14,6 +14,7 @@ public class Main {
         lion.sleeping();
         lion.makingANoise();
         lion.animalRun();
+        zoo.prepareAnimal(lion.name);
         System.out.println();
 
 
@@ -24,6 +25,7 @@ public class Main {
         elephant.eating();
         elephant.makingANoise();
         elephant.animalRun();
+        zoo.prepareAnimal(elephant.name);
         System.out.println();
 
 
