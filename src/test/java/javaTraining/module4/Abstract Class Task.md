@@ -20,9 +20,21 @@ Make Animal as **abstract** class.
 - An abstract class can implement one or many interfaces
 - An abstract class can extend only one abstract class
 
+
 - Abstract classes may or may not contain abstract methods, i.e., methods without body ( public void get(); )
 - But, if a class has at least one abstract method, then the class must be declared abstract.
 - If a class is declared abstract, it cannot be **instantiated**.
 - To use an abstract class, you have to inherit it from another class, provide implementations to the abstract methods in it.
 - If you inherit an abstract class, you have to provide implementations to all the abstract methods in it.
 https://www.tutorialspoint.com/java/java_abstraction.htm
+
+
+Pазница между абстрактным классом и интерфейсом
+
+Абстрактный класс — это класс, у которого не реализован один или больше методов
+Интерфейс — это абстрактный класс, у которого ни один метод не реализован, все они публичные и нет переменных класса.
+Aбстрактный класс наследуется(etxends), а интерфейс реализуется (implements).
+Hаследовать может только 1 класс, а реализовать сколько угодно.
+
+Абстрактный класс может реализовывать методы, интерфейс не может реализовывать методы.
+
