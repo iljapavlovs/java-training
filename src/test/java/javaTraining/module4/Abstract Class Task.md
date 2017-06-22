@@ -20,6 +20,7 @@ Make Animal as **abstract** class.
 - An abstract class can implement one or many interfaces
 - An abstract class can extend only one abstract class
 
+
 - Abstract classes may or may not contain abstract methods, i.e., methods without body ( public void get(); )
 - But, if a class has at least one abstract method, then the class must be declared abstract.
 - If a class is declared abstract, it cannot be **instantiated**.
