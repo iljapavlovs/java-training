@@ -26,3 +26,14 @@ Make Animal as **abstract** class.
 - To use an abstract class, you have to inherit it from another class, provide implementations to the abstract methods in it.
 - If you inherit an abstract class, you have to provide implementations to all the abstract methods in it.
 https://www.tutorialspoint.com/java/java_abstraction.htm
+
+
+Pазница между абстрактным классом и интерфейсом
+
+Абстрактный класс — это класс, у которого не реализован один или больше методов
+Интерфейс — это абстрактный класс, у которого ни один метод не реализован, все они публичные и нет переменных класса.
+Aбстрактный класс наследуется(etxends), а интерфейс реализуется (implements).
+Hаследовать можеm только 1 класс, а реализовать сколько угодно.
+
+Абстрактный класс может реализовывать методы, интерфейс не может реализовывать методы.
+
